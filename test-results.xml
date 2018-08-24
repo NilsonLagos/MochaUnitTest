@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.0809999999999997" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-08-23T22:39:49" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="routes" timestamp="2018-08-23T22:39:50" tests="3" file="C:\Users\Nilson\Documents\Worskspace\node\MuukTestTestingExample\test\routes.js" failures="0" time="1.0809999999999997">
+    <testcase name="routes create_test status should be 200 and result should be true" time="0.051" classname="create_test status should be 200 and result should be true">
+    </testcase>
+    <testcase name="routes add_steps status should be 200" time="1.019" classname="add_steps status should be 200">
+    </testcase>
+    <testcase name="routes add_steps status should be 200 (second test)" time="0.011" classname="add_steps status should be 200 (second test)">
+    </testcase>
+  </testsuite>
+</testsuites>
