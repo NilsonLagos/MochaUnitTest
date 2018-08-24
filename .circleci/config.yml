@@ -3,8 +3,9 @@ jobs:
   build:
     working_directory: ~/tmp
     docker:
-      -image: circle/node:10.6
+      - image: circleci/node:10.6
+      - image: circleci/mongo:4.0
     steps:
-      -checkout
-      -run: npm install
-      -run: npm test
+      - checkout
+      - run: npm install
+      - run: npm test
